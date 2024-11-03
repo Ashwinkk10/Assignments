@@ -1,0 +1,72 @@
+body,
+html {
+  height: 100%;
+  font-family: "Roboto", sans-serif; /* Set Roboto as the default font */
+  color: white;
+}
+#heading {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Container styling */
+.container {
+  background-image: url("https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+
+/* Text styling */
+.heading {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+/* Button styling */
+.start-button {
+  background-color: #ffa500; /* Orange color */
+  border: none;
+  padding: 10px 20px;
+  margin-left: 47%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
+.start-button:hover {
+  background-color: #ff8c00;
+}
+
+/* Link styling */
+.skip-link {
+  color: #ddd;
+  display: block;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.skip-link:hover {
+  color: #fff;
+}
